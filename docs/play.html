@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mystery of Millowill | Start</title>
+  <link rel="stylesheet" type="text/css" href="assets/style.css">
+  <style>
+    ul {
+      list-style-type: none
+    }
+  </style>
+</head>
+<body onload="ini()">
+  <div class="container">
+    <div class="top">
+      <span id="user"></span><br>
+      <span>Health: <span id="health"></span></span>
+      <span>Mana: <span id="mana"></span></span>
+      <span>Day: <span id="day"></span></span>
+    </div>
+    <div class="side">
+      Backpack:
+      <ul id="backpack">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    <div class="main">
+      <p id="message"></p><br>
+      <div id="buttons">
+        <button onclick="button.functionOne()"></button>
+        <button onclick="button.functionTwo()"></button>
+        <button onclick="button.functionThree()"></button>
+        <button onclick="button.functionFour()"></button>
+      </div>
+    </div>
+  </div>
+  <script src="assets/game.js"></script>
+</body>
+</html>
