@@ -1,0 +1,25 @@
+.container {
+  display: grid;
+  grid-gap: 25px;
+  grid-template-areas:
+  'top top top top top'
+  'side side main main main'
+  'side side main main main';
+}
+.top {
+  grid-area: top;
+  text-align: center
+}
+.top > span:not(:last-child) {
+  margin-right: 10px
+}
+.side {
+  grid-area: side;
+}
+.main {
+  grid-area: main;
+}
+#user {
+  font-size: 16px;
+  font-weight: bold
+}
